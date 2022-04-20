@@ -17,3 +17,11 @@ function createGrid(n) {
 }
 
 createGrid(16);
+
+const blocks = document.querySelectorAll('.block');
+console.log(blocks);
+blocks.forEach((block => {
+    block.addEventListener('mouseover', (e) => {
+        block.style.backgroundColor = 'black'
+    })
+}))
