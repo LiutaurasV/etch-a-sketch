@@ -1,0 +1,22 @@
+.block {
+    border: 1px solid black;
+    flex: 1;
+}
+.line {
+    display: flex;
+    flex: 1;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh
+}
+
+.grid {
+    display:flex;
+    width: 420px;
+    height: 420px;
+    flex-direction: column;
+}
