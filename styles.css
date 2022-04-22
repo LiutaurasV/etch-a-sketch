@@ -8,10 +8,9 @@
 
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    min-height: 100vh
+    height: 100vh;
+    margin: 0;
 }
 
 .grid {
@@ -20,4 +19,38 @@ body {
     height: 420px;
     flex-direction: column;
     border: 1px solid black;
+}
+
+.gridspace {
+    height: auto;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-right: 24px;
+}
+
+#rainbow {
+    background-color:  #aa34bf;
+    color: white;
+    border: 1px solid  black;
+    border-radius: 10px;
+}
+
+.settings > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
