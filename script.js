@@ -84,3 +84,4 @@ clearButton.addEventListener('click', () => {
 gridspace.style.marginRight = settings.offsetWidth+ 'px';
 
 createGrid(16);
+slider.value = 16;
