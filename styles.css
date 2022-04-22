@@ -19,6 +19,7 @@ body {
     height: 420px;
     flex-direction: column;
     border: 1px solid black;
+    background-color: white;
 }
 
 .gridspace {
@@ -45,13 +46,6 @@ h1 {
     margin-right: 24px;
 }
 
-#rainbow {
-    background-color:  #aa34bf;
-    color: white;
-    border: 1px solid  black;
-    border-radius: 10px;
-}
-
 .settings > div {
     display: flex;
     flex-direction: column;
@@ -59,4 +53,13 @@ h1 {
 }
 html {
     background-color: aliceblue;
+}
+.mode {
+    background-color: white;
+    border: 1px solid rgb(81, 136, 168);
+    border-radius: 5px;
+    height: 36px;
+}
+.clicked {
+    box-shadow: 0 0 2px 2px rgb(0, 0, 0);
 }
